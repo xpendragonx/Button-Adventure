@@ -1,0 +1,40 @@
+Button clicker game:
+
+Goal: get higher score to unlock secrets
+
+Story Line: upon playing, the user finds out they are primitive man migrating through an unknown landscape. Score is actually the population number?
+
+Gameplay: click the button
+
+Get your score higher to unlock projects:
+Double clicker
+Triple clicker
+Quadruple clicker
+Squared clicker
+Cubed clicker
+Spend culture points to upgrade auto clicker!
+Auto clicker level 1
+Auto clicker level 2
+Light fire
+Discover fiber 
+Bracelet designer
+upgraded bracelet designer (color)
+Hunger bar
+Trapping
+
+Character builder: unlocks slots for items
+Item list:
+Bracelet: unlocks bracelet designer
+Necklace: unlocks necklace designer 
+Leather armor 
+Spear - unlocks hunting 
+Torch 
+
+Cave exploration: unlocks mini game
+Without required items, you die.  With required items you pass.  Upon passing you get to cave paint.
+
+Hunting: unlocks mini game: wack a mole?
+
+Mini map - create procedurally generated world.
+
+End- status report gives a list of all available items and what you were able to unlock.

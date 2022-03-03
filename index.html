@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+
+  </head>
+  <body> 
+
+    <div style="margin: 15px; padding: 5px; border: none; ">
+      <div style="margin: -14px; padding: -15px; border: none; ">
+      <pre id="line1">  </pre>
+      </div>
+      <div style="margin: -14px; padding: -15px; border: none; ">
+      <pre id="line2">  </pre>
+      </div>
+    </div>
+    
+    <div class="hunting-grid">
+            <div class="square" id="1"></div>
+            <div class="square" id="2"></div>
+            <div class="square" id="3"></div>
+            <div class="square" id="4"></div>
+            <div class="square" id="5"></div>
+            <div class="square" id="6"></div>
+            <div class="square" id="7"></div>
+            <div class="square" id="8"></div>
+            <div class="square" id="9"></div>
+    </div>
+    
+<hr>
+         
+    <h1><span id="count" style="visibility:hidden">0</span></h1>
+   
+    <h3 id="cultureElement" style="visibility:hidden">Culture: <span id="cultureCount">0</span></h3>
+    
+    <h4 id="hungerDiv">Hunger<span id="hungerCount">-------</span></h4>
+    
+    <div style="margin: 15px; padding: 5px; border: none; ">
+      <div style="margin: -14px; padding: -15px; border: none; ">
+      <pre id="fiberLine1"> </pre>
+      </div>
+      <div style="margin: -14px; padding: -15px; border: none; ">
+      <pre id="fiberLine2"> </pre>
+      </div>
+      <div style="margin: -14px; padding: -15px; border: none; ">
+      <pre id="fiberLine3"> </pre>
+      </div>
+    </div>
+    
+    <!--
+    <div>
+      <pre>
+/\/\/\/\/\/\/\/\
+\/\/\/\/\/\/\/\/
+      </pre>
+    </div>
+    -->
+    
+    <div id="clickers">
+      <span>
+        <button id="caveExplorationMoveLeft" style="visibility:hidden"></button>
+        <button id="button" style="visibility:hidden"> - - Click - - </button>
+        <button id="caveExplorationMoveRight" style="visibility:hidden"></button>
+      </span>
+    <!--
+      <button id="upgradeBtn">Upgrade</button>
+-->
+    </div>
+    
+    <hr>
+    
+    
+    <div id="buttonGroup">
+    </div>
+     <!-- 
+    <button>Forestry - Costs: 50 Beans</button>
+    <button>Forestry - Costs: 50 Beans</button>     
+    </div>
+-->
+    
+    <script src="animation.js"></script>   
+    <script src="hunting.js"></script>
+    <script src="script.js"></script>    
+  
+
+</body></html>

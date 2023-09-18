@@ -661,6 +661,7 @@ function savePainting() {
     background(100);
     return false;    
   }
+  window.open('https://forms.gle/ZMr2HANJMT3yNzxh6')
 }
 
 // origional save drawing function

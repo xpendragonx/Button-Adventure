@@ -656,12 +656,12 @@ function drawSetup() {
 // Save drawing function
 function savePainting() {
   if (painting) {
+    window.open('https://forms.gle/ZMr2HANJMT3yNzxh6')
     saveCanvas("CavePainting", "png"); 
     event15.activated = true;
     background(100);
     return false;    
   }
-  window.open('https://forms.gle/ZMr2HANJMT3yNzxh6')
 }
 
 // origional save drawing function
